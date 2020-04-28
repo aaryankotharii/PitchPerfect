@@ -60,13 +60,11 @@ class RecordSoundsViewController: UIViewController, AVAudioRecorderDelegate  {
     }
     
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "stopRecording"{
+        if segue.identifier == "stoprecording"{
             let PlaySoundsVC = segue.destination as! PlaySoundsViewController
             let recorderAudioURL = sender as! URL
             PlaySoundsVC.recorderAudioURL = recorderAudioURL
         }
-        
     }
-    
 }
 
