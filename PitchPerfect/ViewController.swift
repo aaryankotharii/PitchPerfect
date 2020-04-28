@@ -12,6 +12,8 @@ class ViewController: UIViewController {
     
     //MARK:- Outlets
     @IBOutlet var recordingLabel: UILabel!
+    @IBOutlet var recordButton: UIButton!
+    @IBOutlet var stopRecordingButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
