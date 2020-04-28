@@ -15,22 +15,26 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3r4-vW-ix6">
-                                <rect key="frame" x="186" y="473" width="42" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tap to Record" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3r4-vW-ix6">
+                                <rect key="frame" x="154" y="535.5" width="106.5" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAA-Xy-UQ9">
-                                <rect key="frame" x="182.5" y="433" width="49" height="30"/>
-                                <state key="normal" title="Record"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GAA-Xy-UQ9">
+                                <rect key="frame" x="129.5" y="370.5" width="155" height="155"/>
+                                <state key="normal" image="Record"/>
                                 <connections>
                                     <action selector="recordAudio:" destination="BYZ-38-t0r" eventType="touchUpInside" id="XrE-BA-lcl"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OA4-YB-zy8">
-                                <rect key="frame" x="191" y="524" width="32" height="30"/>
-                                <state key="normal" title="Stop"/>
+                                <rect key="frame" x="175" y="586.5" width="64" height="64"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="64" id="gSG-EJ-bKo"/>
+                                    <constraint firstAttribute="width" constant="64" id="o2o-H8-sXF"/>
+                                </constraints>
+                                <state key="normal" backgroundImage="Stop"/>
                                 <connections>
                                     <action selector="stopRecording:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IzZ-cz-dLk"/>
                                 </connections>
@@ -58,4 +62,8 @@
             <point key="canvasLocation" x="139" y="122"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Record" width="155" height="155"/>
+        <image name="Stop" width="155" height="155"/>
+    </resources>
 </document>
