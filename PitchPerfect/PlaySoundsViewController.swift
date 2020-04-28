@@ -59,7 +59,7 @@ class PlaySoundsViewController: UIViewController {
         case .none:
             print("NONE")
         }
-         configureUI(.notPlaying )
+         configureUI(.playing)
     }
     
     @IBAction func stopPressed(_ sender: UIButton) {
