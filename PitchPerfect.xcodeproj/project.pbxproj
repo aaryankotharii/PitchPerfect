@@ -62,15 +62,23 @@
 			children = (
 				5B2229652457F9FB0089DCB7 /* AppDelegate.swift */,
 				5B2229672457F9FB0089DCB7 /* SceneDelegate.swift */,
-				5B2229692457F9FB0089DCB7 /* RecordSoundsViewController.swift */,
+				5BEA28B924596D6A00A7E385 /* Controller */,
 				5B22296B2457F9FB0089DCB7 /* Main.storyboard */,
 				5B22296E2457FA020089DCB7 /* Assets.xcassets */,
 				5B2229702457FA020089DCB7 /* LaunchScreen.storyboard */,
 				5B2229732457FA020089DCB7 /* Info.plist */,
+			);
+			path = PitchPerfect;
+			sourceTree = "<group>";
+		};
+		5BEA28B924596D6A00A7E385 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				5B2229692457F9FB0089DCB7 /* RecordSoundsViewController.swift */,
 				5B082C9724582C3D009A733B /* PlaySoundsViewController.swift */,
 				5B082C99245833BC009A733B /* PlaySoundsViewController+Audio.swift */,
 			);
-			path = PitchPerfect;
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
