@@ -7,7 +7,7 @@ review complete ✅
 ```
 
  ## Screenshots
- > "of Example Project"
+ > "final project"
  <p float="left">
  <img src ="PitchPerfect/Assets/1.png" width = "215"  />
  <img src ="PitchPerfect/Assets/2.png" width = "215"  /> 
