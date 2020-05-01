@@ -9,9 +9,9 @@ review complete ✅
  ## Screenshots
  > "of Example Project"
  <p float="left">
- <img src ="PitchPerfect/PitchPerfect/Assets/1.png" width = "215"  />
- <img src ="PitchPerfect/PitchPerfect/Assets/2.png" width = "215"  /> 
- <img src ="PitchPerfect/PitchPerfect/Assets/3.png" width = "215"  />      
+ <img src ="PitchPerfect/Assets/1.png" width = "215"  />
+ <img src ="PitchPerfect/Assets/2.png" width = "215"  /> 
+ <img src ="PitchPerfect/Assets/3.png" width = "215"  />      
  </p>
 
 
